@@ -70,6 +70,7 @@ export default tseslint.config(
 
       // Limita la profundidad de anidamiento de funciones a 4 niveles
       'max-depth': ['error', 4],
+      '@typescript-eslint/explicit-function-return-type': 'off',
     },
   },
 )
